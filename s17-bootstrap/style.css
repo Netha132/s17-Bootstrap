@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    background-color: rgb(37, 37, 41);
+}
+.navbar-brand::first-letter{
+    color: red;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.card-img-top{
+    width: 15rem;
+    height: 16.5rem;
+    padding: 30px;
+    padding-left: 10px;
+}
+.carousel{
+    width: 1000px;
+    height: 400px;
+    margin: 30px;
+    margin-left: 130px;
+}
+.d-block{
+    width: 1000px;
+    height: 400px;
+    
+}
+.offer-Head{
+    color: rgb(235, 7, 79);
+    font-size: 3rem;
+    font-family: "Martel", system-ui;
+  font-weight: 600;
+  text-shadow: 5px 5px 12px #000;
+}
+.offer-Desc{
+    color: rgb(235, 7, 79);
+    font-size: 1rem;
+    font-family: "Martel", system-ui;
+  font-weight: 600;
+}
+.limitedOffers{
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+}
+.saleLive{
+    color: #fac801;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+  font-variation-settings:"wdth" 100;
+  margin-top: 20px;
+  text-shadow: 5px 5px 15px #c1bb08;
+}
+.offer-Desc1{
+    font-size: 2rem;
+    color: #fb0901;
+    padding-bottom: 280px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
